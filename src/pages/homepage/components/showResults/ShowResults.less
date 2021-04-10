@@ -1,0 +1,31 @@
+.showresults {
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0.8rem;
+  //   padding-left: 1.2rem;
+  .masonry {
+    -ms-overflow-style: none;
+    overflow-y: -moz-scrollbars-none;
+  }
+  .masonry::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  .product-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-title {
+    font-weight: 500;
+    color: rgba(1, 1, 1, 0.6);
+  }
+  .product-price {
+    font-weight: bold;
+    margin-right: 0.3rem;
+  }
+  .product-beforeprice {
+    color: rgba(1, 1, 1, 0.3);
+    font-weight: bold;
+    text-decoration: line-through;
+  }
+}
